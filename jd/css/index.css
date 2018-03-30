@@ -1,0 +1,291 @@
+@charset "UTF-8";
+/*shortcut  start*/
+.shortcut {
+    height: 44px;
+    border-bottom: 2px solid #B1191A;
+}
+.shortcut-dropdown {
+    width: 210px;
+    height: 44px;
+    float: left;
+    position: relative;
+    z-index: 100;
+}
+.shortcut-dropdown-all {
+    height: 44px;
+}
+.dropdown-all-a {
+    display: block;
+    height: 44px;
+    padding-left: 10px;
+    font: 400 15px/44px "microsoft yahei";
+    color: #fff;
+    background-color: #B1191A;
+}
+.dropdown-all-a:hover {
+    color: #fff;
+}
+.shortcut-dropdown-one {
+    height: 466px;
+    background-color: #C81623;
+    margin-top: 2px;
+    border-left: 1px solid #B1191A;
+    /*border-left: 1px solid #000;*/
+}
+.shortcut-item {
+    height: 31px;
+    padding: 0 10px;
+    color: #fff;
+    font: 400 14px/31px "microsoft yahei";
+}
+.shortcut-item h1 {
+    float: left;
+}
+.shortcut-item h1 a {
+    color: #fff;
+}
+.shortcut-item:hover {
+    background-color: #fff;
+}
+.shortcut-item:hover a {
+    color: #C81623;
+}
+.shortcut-item i {
+    float: right;
+    font-family: "consolas";
+}
+.shortcut-items {
+    height: 44px;
+    width: 680px;
+    float: left;
+}
+.shortcut-items ul li{
+    float: left;
+}
+.shortcut-items ul li a {
+    display: block;
+    height: 44px;
+    font: 400 15px/44px "microsoft yahei";
+    padding: 0 20px;
+    color: #333333;
+}
+.shortcut-items ul li a:hover {
+    color: #C81623;
+}
+.shortcut-free {
+    width: 140px;
+    height: 40px;
+    background: url(../images/free.jpg) no-repeat;
+    float: right;
+    margin-top: 2px;
+}
+.shortcut-free a {
+    display: block;
+    width: 140px;
+    height: 40px;
+}
+/*shortcut����end*/
+
+/*main����start*/
+.main {
+    position: relative;
+    z-index: 10;
+}
+.main-slider {
+    margin: 12px 0 0 220px;
+    width: 730px;
+    height: 454px;
+    float: left;
+    position: relative;
+}
+.circle {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    margin-left: -66px;
+}
+.circle ul li {
+    float: left;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    background-color: #3E3E3E;
+    border-radius: 9px;
+    text-align: center;
+    color: #fff;
+    margin: 0 2px;
+}
+.circle .current {
+    background-color: #B61B1F;
+}
+.arrow-l ,.arrow-r {
+    position: absolute;
+    top: 50%;
+    width: 28px;
+    height: 62px;
+    margin-top: -31px;
+    background: rgba(0,0,0, 0.3);
+    text-align: center;
+    font: 400 22px/62px "simsun";
+    color: #fff;
+}
+.arrow a:hover {
+    color: #fff;
+    background: rgba(0,0,0, .6);
+}
+.arrow-l {
+    left: 0;
+}
+.arrow-r {
+    right: 0;
+}
+.main-news {
+    width: 248px;
+    height: 453px;
+    border: 1px solid #E4E4E4;
+    float: right;
+    margin-top: 12px;
+    overflow: hidden;
+    margin-right: 1px;
+}
+.main-news-fasternews {
+    height: 200px;
+    border-bottom: 1px dashed #F3F3F3;
+}
+.fasternews ,.lifeservice {
+    height: 42px;
+    font: 400 16px/42px "microsoft yahei";
+    border-bottom: 1px dotted #F3F3F3;
+    padding: 0 15px;
+}
+.fasternews h1 {
+    float: left;
+}
+.fasternews a {
+    font: 12px/42px "consolas";
+    float: right;
+}
+.fasternews-content {
+    padding: 15px 0 0 20px;
+}
+.fasternews-content ul li {
+    height: 28px;
+}
+.fasternews-content span {
+    font-weight: 700;
+    margin-right: 5px;
+}
+.lifeservice-content ul {
+    width: 255px;
+}
+.lifeservice-content ul li {
+    width: 62px;
+    height: 70px;
+    float: left;
+    border: 1px solid #EDEDEC;
+    margin-left: -1px;
+    margin-top: -1px;
+    border-top: 0;
+    position: relative;
+}
+.lifeservice-content li a {
+    display: block;
+    width: 62px;
+    height: 22px;
+    padding-top: 48px;
+    text-align: center;
+}
+.lifeservice-content li i {
+    position: absolute;
+    top: 15px;
+    left: 18px;
+    width: 25px;
+    height: 25px;
+    background: url(../images/hua.png) no-repeat;
+}
+.lifeservice-content .lifeservice-content-icon2{
+    background-position: 0 -25px;
+}
+.lifeservice-content .lifeservice-content-icon3{
+    background-position: 0 -50px;
+}
+.lifeservice-content .lifeservice-content-icon4{
+    background-position: 0 -75px;
+}
+.lifeservice-content .lifeservice-content-icon5{
+    background-position: 0 -100px;
+}
+.lifeservice-content .lifeservice-content-icon6{
+    background-position: 0 -125px;
+}
+.lifeservice-content .lifeservice-content-icon7{
+    background-position: 0 -150px;
+}
+.lifeservice-content .lifeservice-content-icon8{
+    background-position: 0 -175px;
+}
+.lifeservice-content .lifeservice-content-icon9{
+    background-position: 0 -200px;
+}
+.lifeservice-content .lifeservice-content-icon10{
+    background-position: 0 -225px;
+}
+.lifeservice-content .lifeservice-content-icon11{
+    background-position: 0 -250px;
+}
+.lifeservice-content .lifeservice-content-icon12{
+    background-position: 0 -275px;
+}
+.lifeservice-content span {
+    position: absolute;
+    right: 0;
+    width: 12px;
+    height: 15px;
+    background: url(../images/song.png) no-repeat;
+}
+/*main����end*/
+
+/*today����start*/
+.today {
+    margin: 20px auto;
+    overflow: hidden;
+    position: relative;
+    z-index: 10;
+}
+.today-l {
+    float: left;
+}
+.today-l a {
+    display: block;
+    width: 210px;
+    height: 151px;
+    background: url(../images/today.png) no-repeat -213px -136px;
+}
+.today-r ul {
+    width: 200%;
+}
+.today-r li {
+    float: left;
+    margin: 0 1px;
+}
+/*today����end*/
+
+/*people����start*/
+.people {
+    position: relative;
+    z-index: 1;
+}
+.people a {
+    position: absolute;
+    width: 100%;
+    height: 603px;
+    background: url(../images/banner.jpg) no-repeat center top;
+}
+
+
+
+
+
+
+
+/*people����end*/
