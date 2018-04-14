@@ -1,0 +1,393 @@
+*{
+	padding:0;
+	margin: 0;
+	font-family: "微软雅黑","Verdana";
+}
+
+.clean{
+	clear: both;
+}
+
+.body{
+	text-align: center;
+}
+
+.header{
+	width: 100%;
+	background-color: #F5D4E5;
+	height: 50px;
+}
+
+
+
+.logo{
+	height: 30px;
+	/*width: 170px;*/
+	position: relative;
+	top: 50%;
+	margin-top: -15px;
+	margin-left: 100px; 
+	float: left;
+	font-family: "华文琥珀";
+	font-size: 28px;
+	color: white;
+	/*font-weight: bolder;*/
+}
+
+
+.banner img{
+	width: 100%;
+	height: 410px;
+}
+
+.layer{
+	width: 100%;
+	height: 410px;
+	margin-top: -415px; 
+	opacity: 0.5;
+	background-color: #000;
+}
+
+.banner .textAndButton{
+	width: 600px;
+	height: auto;
+	position: absolute;
+	left: 50%;
+	margin-left: -300px;
+	top: 100px;
+	color: #DA9ABF;
+	text-align: center;
+}
+
+.textAndButton .text{
+	font-family: "华文行楷";
+	font-size:48px;
+	font-weight: bolder;
+	margin: 25px 0px;
+	letter-spacing: 5px;
+}
+
+.textAndButton .t2{
+	letter-spacing: 3px;
+}
+
+.banner form input{
+	height: 33px;
+	margin-bottom: 13px;
+	color: white;
+}
+
+.textAndButton button{
+	height: 40px;
+	color: #fff;
+	cursor: pointer;
+	background-color: #000;
+	opacity: 0.5;
+	border: 1px solid  #CD84B1;
+	width: 120px;
+	margin-top: 15px;
+}
+
+.textAndButton button:hover{
+	background-color: #000;
+	border: none;
+}
+
+.textAndButton button:active{
+	background-color: #fff;
+}
+
+#banner2{
+	position: relative;
+	width: 90%;
+	margin: 40px auto;
+	text-align: center; 
+	height: 410px;
+	overflow: hidden;
+	display: none;
+}
+
+#banner2 .p2,.p3,.p4{
+	display: none;
+}
+
+.activity{
+	display: block;
+}
+
+.posBtn,.preBtn{
+	position: absolute;
+	background: url("images/arrow.png") center no-repeat;
+	border: none;
+	width: 40px;
+	height: 70px;
+	top: 50%;
+	margin-top: -35px;
+	opacity: 0.5;
+}
+
+.preBtn:hover,.posBtn:hover{
+	background-color: rgba(7, 17, 27, 1);
+}
+
+.preBtn{
+	left: 0px;
+	transform: rotate(180deg);
+}
+
+.posBtn{
+	right: 0;
+}
+
+#dot{
+ 	position: absolute; 
+ 	width: 100px;
+ 	bottom: 20px;
+ 	right: 20px;
+	height: 15px;
+	vertical-align: middle;
+}
+
+#dot span{
+	display: inline-block;
+	margin: 0 4px;
+	width: 9px;
+	height: 9px;
+	border-radius: 50%;
+	box-shadow: 0 0 0 2px rgba(255,255,255,0.6);
+	background-color: rgba(0,0,0,0.3);
+	cursor: pointer;
+}
+
+#dot .activity{
+	background-color: #fff;
+}
+
+.part1,.part3{
+	width: 800px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.part1 .title,.part3 .title{
+	font-size: 28px;
+	font-weight: bolder;
+	height: auto;
+	margin: auto;
+}
+
+.part1 hr,.part3 hr{
+	width: 33px;
+	color: #CD84B1;
+	margin: 10px auto;
+}
+
+.part1 .desc,.part3 .desc{
+	width: 500px;
+	margin: 0 auto;
+	font-size: 13px;
+	color: #797979;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+
+.part1 .about_us{
+	width: 160px;
+	font-size: 28px;
+	text-align: right;
+	margin-bottom: 3px;
+	position: absolute;
+	right: 30px;
+	top: 10px;
+}
+
+.part1 .about_us_{
+	position: absolute;
+	padding: 25px 15px;
+}
+
+.layer1{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: #eee;
+	opacity: 0.5;
+}
+
+.part1 .about_us_ button{
+	margin-top: 20px;
+	width: 95px;
+	height: 45px;
+	background-color: #000;
+	color: white;
+	opacity: 1;
+	cursor: pointer;
+}
+
+.about_us_ .about_us_desv{
+	text-align: right;
+	margin-top: 85px;
+	width: 320px;
+	font-size: 15px;
+}
+
+.part1 .middle img{
+	width: 460px;
+	overflow: hidden;
+}
+
+.part1 .middle{
+	float: left;
+	position: absolute;
+	left: 50%;
+	margin-left: -230px;
+}
+
+.part1{
+	margin-bottom: 415px;
+}
+
+.part1 .left{
+	width: 190px;
+	float: left;
+	position: relative;
+	left: -40px;
+}
+
+
+.part1 .right{
+	float: right;
+	width: 350px;
+	margin-right: -100px;
+	top: 100px;
+	position: relative;
+	z-index: 10;
+	border: 1px solid #CD84B1;
+	height: 220px;
+}
+
+.part1 .left .num{
+	border: 2px #CD84B1 solid;
+	text-align: center;
+	margin-bottom: 20px;
+	padding: 18px 0;
+	font-weight: bolder;
+}
+
+.part2{
+	width: 100%;
+	height: auto;
+	margin-top: 50px;
+}
+
+.part2 .r1 div,.part2 .r2 div{
+	width: 25%;
+	height: 280px;
+	float: left;
+}
+
+.part2 .desc{
+	background-color: #CD84B1;
+	color: white;
+}
+
+.part2 .desc h3,.part2 .desc p{
+	margin: 15px 30px;
+}
+
+.part2 .desc .larger{
+	font-weight: bolder;
+	font-size: 14px;
+}
+
+.part2 .desc .little{
+	font-size: 14px;
+}
+
+
+.part2 .desc h3{
+	margin-top: 30px;
+	font-size: 20px;
+}
+
+.part2 .desc button{
+	width: 80px;
+	height: 35px;
+	margin: 15px 130px;
+	background-color: #000;
+	color: white;
+	border: 1px;
+	cursor: pointer;
+	border-radius: 3px;
+}
+
+.part2 .desc button:hover{
+	opacity: 0.8;
+}
+
+.part2 .img {
+	position: relative;
+	height: 280px;
+	overflow: hidden;
+}
+
+.simply{
+	color:#CD84B1;
+	font-size: 100px;
+	z-index: 999999;
+	position: absolute;
+	right: -25px;
+	top: 57px;
+	width: 50px;
+	height:65px;
+}
+
+.r2 .simply{
+	left: -25px;
+}
+
+
+.part3 .photos .p1 img{
+	width: 250px;
+}
+
+.part3 .photos .word{
+	height: 40px;
+	width: 100%;
+	font-size: 12px;
+	color: white;
+	line-height: 40px;
+	z-index: 10;
+	background-color: #000;
+	position: absolute;
+	bottom: 0px;
+}
+
+
+.part3 .photos .p1{
+	height: 210px;
+	width: 250px;
+	float: left;
+	background-color: black;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	position: relative;
+	overflow: hidden;
+}
+
+.foot{
+	width: 100%;
+	background-color: #DA9ABF;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.foot p{
+	font-size: 11px;
+	color: white;
+	height: 50px;
+	line-height: 50px;
+}
